@@ -5,13 +5,13 @@ import { getFirestore, Firestore } from "firebase/firestore";
 
 // Validated Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCeVjvx7QmYww39ChrFJUYWm6td4qeagwQ",
-  authDomain: "linkup-lite-ng7wy.firebaseapp.com",
-  databaseURL: "https://linkup-lite-ng7wy-default-rtdb.firebaseio.com",
-  projectId: "linkup-lite-ng7wy",
-  storageBucket: "linkup-lite-ng7wy.firebasestorage.app",
-  messagingSenderId: "587126502108",
-  appId: "1:587126502108:web:933d1ec21444375b39fa19"
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  databaseURL: FIREBASE_DATABASE_URL,
+  projectId: FIREBASE_PROJECT_ID,
+  storageBucket: FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+  appId: FIREBASE_APP_ID
 };
 
 const isConfigValid = 
